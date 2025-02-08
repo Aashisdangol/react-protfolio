@@ -1,57 +1,33 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
-import profileImage from'./assets/profile-image.png'
 import DarkMode from './Conponents/DarkMode'
 import NavBar from './Conponents/NavBar'
-import SideMenu from './Conponents/SideMenu'
-import Work from './Conponents/Work'
-import Skills from './Conponents/Skills'
-import RecentWork from './Conponents/RecentWork'
-import HeroSection from './Conponents/HeroSection'
-import AboutME from './Conponents/AboutMe'
 import Footer from './Conponents/Footer'
 import GOToTop from './Conponents/GOToTop'
-import GetInTouch from './Conponents/GetInTouch'
+import { Route, Routes } from 'react-router'
+import HomePage from './pages/HomePage'
+import SkillPage from './pages/SkillPage'
+import ProjectsPage from './pages/ProjectsPage'
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
       <DarkMode/>
 
   <div className="wrapper-container">
-    <header>
-      
-      <nav>
-        <div className="flex-container navbar-container">
-          
-
-          <NavBar/>
-          <SideMenu/>
-        </div>
-      </nav>
-    </header>
-      <HeroSection/>
-
-    
-      <Work/>
-      <Skills/>
-    
-
-    <section id="projects">
-      <RecentWork/>
-    </section>
-
-    <AboutME/>
-
-    <GetInTouch/>
-
-    <Footer/>
-
-    <GOToTop/>
+      <NavBar/>
+      <Routes>
+          <Route path = '/' element={<HomePage/>} />
+          <Route path = '/Skills' element={<SkillPage/>} />
+          <Route path = '/Projects' element={<ProjectsPage/>} />
+          <Route path = '/About' element={<AboutPage/>} />
+          <Route path = '/Contact' element={<ContactPage/>} />
+      </Routes>
+  <Footer/>
+  <GOToTop/>
   </div>
     </>
   )
