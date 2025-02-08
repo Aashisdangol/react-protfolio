@@ -1,4 +1,4 @@
-const Work = () => {
+const Project = () => {
 
     return (
         <>
@@ -39,4 +39,4 @@ const Work = () => {
     )
 }
 
-export default Work;
+export default Project;

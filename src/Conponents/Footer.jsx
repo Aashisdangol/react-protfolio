@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Footer = () => {
 
     return (
@@ -6,22 +8,22 @@ const Footer = () => {
           <div>
             <h6>Links</h6>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/skills">Skills</Link></li>
+              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
   
           <div>
             <h6>Social Links</h6>
             <ul>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Github</a></li>
-              <li><a href="#">Youtube</a></li>
-              <li><a href="#">Facebbok</a></li>
-              <li><a href="#">X</a></li>
+              <li><Link to="/">LinkedIn</Link></li>
+              <li><Link to="/">Github</Link></li>
+              <li><Link to="/">Youtube</Link></li>
+              <li><Link to="/">Facebbok</Link></li>
+              <li><Link to="/">X</Link></li>
           </ul>
           </div>
         </div>

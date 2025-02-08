@@ -3,7 +3,8 @@ import protfolioImage from'../assets/portfolio-image.png'
 const RecentWork = () => {
 
     return (
-        <>
+        <section id="projects">
+
         <center><h2>My Recent Work</h2></center>
 
 <div className="flex-container">
@@ -126,7 +127,7 @@ const RecentWork = () => {
     </div>
   </div>
 </div>
-        </>
+        </section>
     )
 }
 
