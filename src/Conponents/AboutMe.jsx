@@ -9,24 +9,8 @@ const AboutME = () => {
         <div><img src={profileImage} alt="profile-image" /></div>
         
         <div className="bio-container">
-          <h4>Dented Code</h4>
-          <p>Narendra Sunar is a seasoned full-stack engineer 
-          with expertise in React, Ruby on Rails, and 
-          Node.js, spanning over 6 years in software 
-          development. Passionate about impactful 
-          web applications, he mentors junior developers
-          with enthusiasm, finding it a rewarding 
-          investment of his time. Narendra&apos;s teaching 
-          extends to HTML and CSS basics, where he 
-          employs interactive methods like hands-on 
-          coding and PowerPoint slides. Recently, 
-          he&apos;s delved into CSS animations and 
-          integrating tools like Intro.js into React 
-          applications. With a knack for detail, 
-          Narendra refines his coding style with 
-          features like Flow for type checking, 
-          demonstrating a commitment to robust and 
-          efficient development practices.
+          <h4>Aashis Dangol</h4>
+          <p>Ashis Dangol is a passionate and driven software developer with a growing command of full-stack technologies, including React, Node.js, and Express.js. Known for a strong foundation in web development, Aashis brings creativity and precision to every project—from responsive front-end designs to efficient back-end logic. With a curious mindset and a commitment to continuous learning, he actively explores emerging trends like Ghibli-style UI/UX, CSS animations, and REST API integration. Aashis thrives in collaborative environments, values clean and maintainable code, and is equally enthusiastic about sharing knowledge with peers. His focus on both the art and science of development reflects a long-term vision for creating meaningful, user-centered applications.
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import profileImage from'../assets/profile-image.png'
+import Skills from './Skills';
 const HeroSection = () => {
 
     return (
@@ -22,6 +23,9 @@ const HeroSection = () => {
           <div className="profile-image">
             <img src={profileImage} alt="profile-image" />
           </div>
+        </div>
+        <div>
+          <Skills/>
         </div>
       </section>
     )

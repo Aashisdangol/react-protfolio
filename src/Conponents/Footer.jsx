@@ -19,16 +19,16 @@ const Footer = () => {
           <div>
             <h6>Social Links</h6>
             <ul>
-              <li><Link to="/">LinkedIn</Link></li>
-              <li><Link to="/">Github</Link></li>
-              <li><Link to="/">Youtube</Link></li>
-              <li><Link to="/">Facebbok</Link></li>
-              <li><Link to="/">X</Link></li>
+              <li><Link to="https://www.linkedin.com/in/aashis-dangol-8b0bb0270/" target="_black">LinkedIn</Link></li>
+              <li><Link to="https://github.com/Aashisdangol" target="_blank">Github</Link></li>
+              <li><Link to="https://www.facebook.com/dangol.aasish/" target="_blank">Facebook</Link></li>
+              <li><Link to="https://www.instagram.com/dangol_aashis/" target="_blank">Instagram</Link></li>
+              <li><Link to="/"></Link></li>
           </ul>
           </div>
         </div>
   
-        <center className="copy-right-text">&copy; Copy right all reserved. Made by Dented Code</center>
+        <center className="copy-right-text">&copy; Copy right all reserved. Made by Aashis Dangol</center>
       </footer>
     )
 }
