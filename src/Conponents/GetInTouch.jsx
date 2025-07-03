@@ -16,7 +16,7 @@ const GetInTouch = () => {
       <div className="mail-container">
         <a href="mailto:myemail@dentedcode.com">
           <button className="download-btn">
-            myemail@dentedcode.com <i className="fa-solid fa-paper-plane"></i>
+            dangolaashis1229@gmail.com<i className="fa-solid fa-paper-plane"></i>
           </button>
         </a>
       </div>
