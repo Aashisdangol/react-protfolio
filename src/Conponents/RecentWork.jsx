@@ -1,4 +1,5 @@
 import protfolioImage from'../assets/portfolio-image.png'
+import RecentWork1 from'../assets/RecentWork1.png'
 
 const RecentWork = () => {
 
@@ -11,7 +12,7 @@ const RecentWork = () => {
   {/* <!----Project 1------> */}
   <div className="project-card">
     <div className="card-image">
-      <img src={protfolioImage} alt="project-image" />
+      <img src={RecentWork1} alt="project-image" />
     </div>
 
     <div className="card-icons">
@@ -20,8 +21,8 @@ const RecentWork = () => {
     </div>
 
     <div className="card-text">
-      <h4>Personal Portfolio</h4>
-      <p>HTML | CSS</p>
+      <h4>MailMuse</h4>
+      <p>Send your mail in Fast And Easy way</p>
     </div>
   </div>
 
