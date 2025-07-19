@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /* ligt mode colors */
   --bg-color: #BDE7FD;
@@ -16,6 +18,9 @@
     margin: 0;
     /* background-color: var(--bg-color); */
     overflow-x: hidden;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
   }
   
   .flex-container {
@@ -130,8 +135,6 @@
   .hero-section {
     background-color: var(--primary-color);
     border-radius: 12px;
-    max-height: 60vh;
-    margin: 4rem 12px;
   }
   
   .intro-text {

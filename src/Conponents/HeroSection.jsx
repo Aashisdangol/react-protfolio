@@ -6,6 +6,11 @@ const HeroSection = () => {
 
 
         <section id="home">
+          
+  
+          <div className="profile-image w-24 h-24  ">
+            <img src={profileImage} alt="profile" className="object-cover rounded-full overflow-hidden ml-50 " />
+          </div>
         <div className="grid-container hero-section">
           <div className="intro-text">
             <p>Hi I am <b>Aashis Dangol</b></p>
@@ -18,10 +23,6 @@ const HeroSection = () => {
                 Download CV <i className="fa-solid fa-download"></i>
               </button>
             </a>
-          </div>
-  
-          <div className="profile-image">
-            <img src={profileImage} alt="profile-image" />
           </div>
         </div>
         <div>
