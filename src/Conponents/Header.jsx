@@ -5,19 +5,19 @@ const Header = () => {
         <header className="flex-0 pl-6"> 
             <nav className="h-full flex items-center flex-wrap ">   
                <ul className="nav-items">
-                    <li>
+                    <li className="px-8">
                     <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className="px-8">
                     <Link to="/skills">Skills</Link>
                 </li>
-                <li>
+                <li className="px-8">
                     <Link to="/projects">Projects</Link>
                 </li>
-                <li>
+                <li className="px-8">
                     <Link to="/about">About</Link>
                 </li>
-                <li>
+                <li className="px-8">
                     <Link to="/contact">Contact</Link>
                 </li>
             </ul>

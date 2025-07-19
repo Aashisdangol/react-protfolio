@@ -155,14 +155,6 @@
     cursor: pointer;
   }
   
-  .profile-image {
-    margin: -2rem 0;
-  }
-  
-  .profile-image img {
-    height: 100%;
-    width: 100%;
-  }
   
   /* Summary Section */
   .summary-container {

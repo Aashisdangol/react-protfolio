@@ -24,7 +24,7 @@ function App() {
       <div className="flex flex-wrap justufy-items-center ">
         <Header/>
         <Profile />
-        <div className='flex-1'>
+        <section className='flex-1 overflow-scroll max-h-dvh'>
           <Routes>
             <Route path = '/' element={<HomePage/>} />
             <Route path = '/Skills' element={<SkillPage/>} />
@@ -33,12 +33,11 @@ function App() {
             <Route path = '/Contact' element={<ContactPage/>} />
             <Route path = '/new' element = {<NewHome/>}/>
         </Routes>
-        </div>
+        </section>
       </div>
       
     <GOToTop/>
   </div>
-    <Footer/>
     </>
   )
 }
