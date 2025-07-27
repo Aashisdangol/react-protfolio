@@ -4,7 +4,7 @@
   /* ligt mode colors */
   --bg-color: #BDE7FD;
   --primary-color: #FF4600;
-  --text-color: black;
+  --text-color: white;
   --border-color: black;
   --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
   
@@ -13,14 +13,37 @@
   --dark-text-color: white;
   --dark-border-color: white;
   }
+
+  p{
+    color: var(--text-color);
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    color: var(--text-color);
+  }
+  div,span{
+    color: var(--text-color);
+  }
   
+  
+  html,body {
+    height: 100%;
+  }
+  #root {
+    height: 100%;
+  }
   body {
+    background-color: #161616;
     margin: 0;
     /* background-color: var(--bg-color); */
     overflow-x: hidden;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  }
+
+  .canvas .lights .light{
+    fill: #f6b846!important;
   }
   
   .flex-container {
@@ -207,9 +230,9 @@
   /* My Recent Work */
   
   .project-card {
-    width: 200px;
-    height: 250px;
-    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
     border-radius: 12px;
     box-shadow: var(--box-shadow);
   }
@@ -245,20 +268,11 @@
   
   /* About me section */
   .about-me-section{
-    background-color: wheat;
-    margin: 16px -40px;
-    padding: 12px;
+    
+    padding: 12px 24px;
   }
   
-  .bio-container {
-    width: 60%;
-  }
-  
-  .bio-container p {
-    font-size: small;
-    padding: 0px;
-  }
-  
+   
   .about-me-container img {
     width: 100px;
     height: 150px;
