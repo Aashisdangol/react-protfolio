@@ -1,12 +1,12 @@
 const GetInTouch = () => {
 
     return (
-        <section id="contact">
-      <center><h4>Get In Touch</h4></center>
+        <section id="contact" className="h-full my-auto mx-auto">
+          <center><h4>Get In Touch</h4></center>
 
       <div className="flex-container get-in-touch-container">
-        <a><i className="fa-brands fa-linkedin"></i></a>
-        <a><i className="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aashis-dangol-8b0bb0270/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Aashisdangol" target="_blank"><i className="fa-brands fa-github"></i></a>
         <a><i className="fa-brands fa-youtube"></i></a>
         <a href="tel:04161453369"><i className="fa-solid fa-mobile"></i></a>
       </div>

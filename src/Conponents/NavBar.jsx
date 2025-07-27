@@ -13,7 +13,7 @@ const NavBar = () => {
             <div>Soft. Engineer</div>
           </div>
        <ul className="flex-container nav-items">
-            <li><Link  to="/">Home</Link></li>
+            <li className="px-3"><Link  to="/">Home</Link></li>
             <li><Link  to="/skills">Skills</Link></li>
             <li><Link  to="/projects">Projects</Link></li>
             <li><Link  to="/about">About</Link></li>
