@@ -1,8 +1,8 @@
-const Resume = () => {
+const Blogs = () => {
   return (
     <section>
         <div>
-            Resume
+            Blogs
         </div>
         <div>
             Skills
@@ -14,4 +14,4 @@ const Resume = () => {
   )
 }
 
-export default Resume
+export default Blogs

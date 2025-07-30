@@ -1,21 +1,17 @@
 
 import './App.css'
 import DarkMode from './Conponents/DarkMode'
-import NavBar from './Conponents/NavBar'
-import Footer from './Conponents/Footer'
 import GOToTop from './Conponents/GOToTop'
 import { Route, Routes } from 'react-router'
-import HomePage from './pages/HomePage'
 import SkillPage from './pages/SkillPage'
 import ProjectsPage from './pages/ProjectsPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
-import NewHome from './pages/ResumePage'
 import Header from './Conponents/Header'
 import Profile from './Conponents/Proflie'
 import Home from './Conponents/Home'
-import ResumePage from './pages/ResumePage'
 import Background from './Conponents/common/Background'
+import BlogsPage from './pages/BlogPage'
 
 function App() {
 
@@ -36,7 +32,7 @@ function App() {
               <Route path = '/Projects' element={<ProjectsPage/>} />
               <Route path = '/About' element={<AboutPage/>} />
               <Route path = '/Contact' element={<ContactPage/>} />
-              <Route path = '/resume' element = {<ResumePage/>}/>
+              <Route path = '/Blogs' element = {<BlogsPage/>}/>
           </Routes>
           </div>
         </section>
