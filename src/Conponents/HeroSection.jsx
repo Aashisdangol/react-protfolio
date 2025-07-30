@@ -14,7 +14,6 @@ const HeroSection = () => {
       <div className=" flex justify-center">
         <div className="intro-text">
          <HeroSectionAnimation />
-          <br />
         </div>
       </div>
 

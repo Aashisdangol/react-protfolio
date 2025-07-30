@@ -25,7 +25,7 @@ function App() {
 
   <div className= "h-screen flex-container items-center container mx-auto ">
       <Background />
-      <div className="lg:flex lg:max-h-[60vh] w-full lg:flex-nowrap rounded-lg border-white">
+      <div className="lg:flex lg:max-h-[65vh] w-full lg:flex-nowrap rounded-lg border-white">
         <Header/>
         <Profile />
         <section className='flex-1 bg-[#222] '>
