@@ -1,6 +1,6 @@
 import profileImage from "../assets/profile-image.png";
 import Link from "./common/Link";
-import GetInTouch from "./GetInTouch";
+import HeroSectionAnimation from "./HeroSectionAnimation";
 const HeroSection = () => {
   return (
     <section id="home" className="-mt-8">
@@ -13,21 +13,19 @@ const HeroSection = () => {
       </div>
       <div className=" flex justify-center">
         <div className="intro-text">
-          <p>
-            Hi I am <b>Aashis Dangol</b>
-          </p>
-          <p>
-            <b>Software Engineer</b>
-          </p>
+         <HeroSectionAnimation />
           <br />
-          <div className="flex-container get-in-touch-container">
+        </div>
+      </div>
+
+          <div className="flex gap-8 justify-center ">
             <a href="https://www.linkedin.com/in/aashis-dangol-8b0bb0270/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/Aashisdangol" target="_blank"><i className="fa-brands fa-github"></i></a>
             <a><i className="fa-brands fa-youtube"></i></a>
             <a href="tel:04161453369"><i className="fa-solid fa-mobile"></i></a>
           </div>
-        </div>
-      </div>
+        
+      
       <div className="flex justify-around">
         <Link href="/assets/myresume.pdf" text="Download CV" download>
           Download CV <i className="fa-solid fa-download"></i>
